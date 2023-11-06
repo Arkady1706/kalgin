@@ -1,10 +1,9 @@
 #include <stdio.h>
 int main(void) {
-	int a, b, res;
-	scanf("%d", &a);	
-	scanf("%d", &b);
-res = a+b;
-printf(%d,res);
+	int K, res;
+	scanf("%3d", &K);
+	res = K + 99*(K%10) - 99*(K/100);
+printf("%d",res);
 return 0;
 }
 
